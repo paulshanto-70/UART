@@ -6,7 +6,6 @@ protocol. Different type of protocols are available.
 - High speed: PCIe, SATA, SAS, Ethernet, USB, MIPI.
 - Low speed :UART,SPI,I2C.
 
-
 - One of the biggest challenge in SOC design is the on chip communication between the different components.
 -  The different bus protocols used for interconnection .
 -  Most of the times, the IP cores are designed with many different interfaces and communication protocols and this can be a problem while integrating into an SOC. 
@@ -17,6 +16,7 @@ protocol. Different type of protocols are available.
 -  UART Protocols is a serial communication with two wired protocols. 
 - The data cable signal lines are labelled as Rx and Tx.
 -   Serial communication is commonly used for transmitting and receiving the signal.
+     ![Alt](waveforms/img5.jpg)
 - It is transferred and receives the data serially bit by bit without class pulses. 
 -  The UART takes bytes of data and sends the individual bits in a sequential manner.
 - UART is a half-duplex protocol. 
