@@ -17,9 +17,6 @@ protocol. Different type of protocols are available.
 -  UART Protocols is a serial communication with two wired protocols. 
 - The data cable signal lines are labelled as Rx and Tx.
 -   Serial communication is commonly used for transmitting and receiving the signal.
-
-   ![Alt](images/img2.jpg)
-
 - It is transferred and receives the data serially bit by bit without class pulses. 
 -  The UART takes bytes of data and sends the individual bits in a sequential manner.
 - UART is a half-duplex protocol. 
@@ -27,9 +24,5 @@ protocol. Different type of protocols are available.
 - It uses a single data line for transmitting and receiving the data. It has one start bit, 8-bit data and onestop bit mean the 8-bit data transfer one’s signal is high to low.
 
 ## Application Background
-
-
-
-![Alt](images/img3.jpg)
 
 UART is one of the most simple and most commonly used Serial Communication techniques. Today, UART is being used in many applications like GPS Receivers, Bluetooth Modules, GSM and GPRS Modems, Wireless Communication Systems, RFID based applications etc.
